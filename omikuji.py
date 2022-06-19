@@ -1,5 +1,9 @@
-omikuji = ["大吉", "吉", "凶"]
+import random
 
-result = omikuji[0]
+omikuji = ["大吉", "吉", "凶", "中吉 "]
+
+index = random.randint(0, 3)
+
+result = omikuji[index]
 
 print(f"今日の運勢は...{result}")
